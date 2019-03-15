@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane - Responsive HTML5 Portfolio Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/core.css">
+    <link rel="stylesheet" type="text/css" href="../css/elements.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="icon" type="image/png" href="../favicon.png?version=1">
+  </head>
+  <body class="preload">
+    <div class="container-fluid">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xs-10"><a href="../index.html" class="brand">
+                <div class="author">Jane Johnson</div>
+                <div class="title">Designer + Art Director</div></a></div>
+            <div class="col-md-6 col-xs-2">
+              <div class="nav-trigger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <div class="row mb-lg">
+            <div class="col-md-12">
+              <h1><span class="typed">Hello</span></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 contact-info">
+              <p>+31 01 23 45 67 89</p><a href="mailto@hello@example.com">Hello@example.com</a><a href="#">Twitter</a><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a>
+            </div>
+            <div class="col-md-8">
+              <!-- The contact form-->
+              <form id="form" action="/php/mail.php" class="form mt-md">
+                <label>What's your name? *</label>
+                <input required type="text" name="name" class="form-control">
+                <label>Phone number</label>
+                <input type="text" name="phone" class="form-control">
+                <label>E-mail address *</label>
+                <input required type="email" name="email" class="form-control">
+                <label>Tell me what's up *</label>
+                <textarea required name="message" class="form-control"></textarea>
+                <button id="send" type="submit" class="btn btn-default">Send message</button><span class="p-md">* These fields are required</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- The type animation script-->
+      <script>$(function(){$(".typed").typed({strings: ["Hello", "Hola", "こんにちは", "Ciao", "Aloha", "Hallo"],typeSpeed: 130,loop: true  });});</script>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center"><span>&copy; Jane Template. All rights reserved. </span><a href="https://themeforest.net/item/jane-responsive-html5-portfolio-template/18194704">Buy Jane</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <aside id="navigation">
+      <div class="inner">
+        <div class="nav-trigger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="menu">
+          <li> <a href="../index.html">Work</a></li>
+          <li> <a href="../pages/about.html">About</a></li>
+          <li> <a href="../pages/blog.html">Blog</a></li>
+          <li> <a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <hr>
+        <p>"The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science." Albert Einstein, The World as I See It, 1931 The debate between realism and anti-realism is, at least, a century old. Does Science describe the real world – or are its theories true only within a certain conceptual framework?  </p>
+        <hr>
+        <ul class="menu-small">
+          <li> <a href="#">Instagram</a></li>
+          <li> <a href="#">Facebook</a></li>
+          <li> <a href="#">Behance</a></li>
+        </ul>
+      </div>
+    </aside>
+    <script src="../js/assets/jquery.js"></script>
+    <script src="../js/assets/bootstrap.js"></script>
+    <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/assets/validation.js"></script>
+    <script src="../js/assets/packery.pkgd.min.js"></script>
+    <script src="../js/assets/velocity.min.js"></script>
+    <script src="../js/assets/typed.min.js"></script>
+    <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
+    <script src="../js/assets/animsition.js"></script>
+    <script src="../js/functions.js"></script>
+  </body>
+</html>
