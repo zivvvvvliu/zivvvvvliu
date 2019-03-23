@@ -34,17 +34,6 @@
     <section>
       <div class="container content">
         <div class="row">
-          <div class="col-md-12"><img alt="Ziv Liu" src="..//images/portfolio/work-8/001.png">
-          </div>
-        </div>
-        </br>
-        </br>
-        </br>
-        <div class="row">
-          <div class="col-md-12 text-center pt-md pb-lg">
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-4 text-right pb-md">
             </br>
             <h4>Name</h4>
@@ -53,6 +42,9 @@
             <p>2015-2016</p>
             <h4>What I Do</h4>
             <p>Interaction & Web Design</p>
+            <h4>authors</h4>
+            <p>Liu Zhiyuan & Long haotian </p>
+            <p>& Qiao Feitong & Li Guang</p>
           </div>
           <div class="col-md-8"><img alt="Ziv Liu" src="../images/portfolio/work-8/002.png">
           </div>
@@ -62,21 +54,60 @@
           <div class="col-md-8"><img alt="Ziv Liu" src="../images/portfolio/work-8/003.png">
           </div>
           <div class="col-md-4 ">
-            <h4>brief intruction</h4>
-            <p>The scene is set in a chamber of secrets, the elves want to play tricks on the player, the player needs
-              to find all four elves to go out of the chamber of secrets.
+            <h4>ABSTRACT</h4>
+            <p>In this paper, we introduce GazeLabel: a data labeling system with public displays (at bus stops, metro
+              stations, shopping malls, etc.) using eye-tracking technology. With built-in cameras, the proposed system
+              captures pedestrians’ gaze points on the screen, from which we can extract information and get a
+              substantial amount of free labeled data. Based on this idea, we implemented a prototype eye-tracking
+              data-labeling system for binary image classifications. A pilot study demonstrated the potential and
+              practicability in a data labeling process using GazeLabel.
+            </p>
+          </div>
+        </div>
 
-              The chamber is decorated with various props can start organ, players need to help themselves through the
-              mobile phone AR. After solving the puzzle, the corresponding elf will appear.
+        <div class="row">
+          <div class="col-md-4"><img alt="Ziv Liu" src="../images/portfolio/work-8/003.png">
+          </div>
+          <div class="col-md-8 ">
+            <p>As the state of the art, Deep Learning is widely used in fields such as computer vision, voice
+              recognition, and natural language processing. The learning process is driven by data, which needs to be
+              labeled. therefore, data-labeling is a crucial step in deep learning projects. Currently, the most common
+              approach to such task is “crowdsourcing", such as Amazon’s Mechanical Turk [1]. Yet, despite its speed and
+              flexibility, crowdsourcing requires trivially detailed design, demands large amount of financial and human
+              resources, and become difficult to manage due to variance in labelers’ abilities.
+              The prevalence of public displays such as advertising screen panels, allows all sorts of information to be
+              disseminated in the form of images and videos. Recent years, some research work has shown that gaze eye
+              tracking could help us analyze the passers-by attention to enable users to interact with public displays.
+              Such as EyeScout [4], GazeHorizon [5], AggreGaze [6]. In addition, eye-tracking technology has advanced
+              rapidly. Especially deep learning method applied [3]. A single camera can achieve user’s eye tracking
+              without calibration. Furthermore, an AI company Megvii (face++) has opened gaze estimation API [2] free
+              for developers. We attempt to equip public displays with eye-tracking technology to solve the issues in
+              crowdsourcing of data labeling.
+              To reduce complexity and cost in crowdsourcing management, we propose to use public displays (at bus
+              stops, metro stations, shopping malls, hospitals, etc.) as new data-labeling platforms, drawing support
+              from pedestrians to voluntarily help us label data. We could setup a camera on the panel to capture the
+              audience’s gaze points and apply a tailor-made user-interaction design to the screen, allowing the
+              passing-by audience to help us label data almost unconsciously.
+              The realization process of such eye-tracking data-labeling system is as follows. First, with the built-in
+              camera of the screen panel, the system monitors and collects the audience’s gaze points with eye-tracking
+              technology. The system then identifies an area on the screen that received greater attention (measured by
+              gaze frequency and fixation duration on the area). The label decision represented by such area will be
+              marked as “selected”. The decision from this panel could then be sent to the system’s backend server,
+              which collects the decision votes from all panels and labels the data with the decision that received the
+              most votes. Such approach captures user-inputs passively and single-directionally, so the traditional
+              user-interaction based on mouse and keyboard cannot apply, where the next piece of data appears
+              immediately upon completion of the previous. In the proposed system, only one data-piece is displayed over
+              a specified amount of time, and all passerby would be attempting this same labeling task. The display
+              duration of every data-piece is determined by frequency of passerby. The duration decreases as frequency
+              of labeling attempts by passerby increases, and vice versa.
+              Most urban cities have large numbers of advertising screen panels, indicating the system’s potential to
+              label large amounts of data very quickly. Take Beijing as an example: there are at least millions of
+              advertising screen panels in the city (Beijing has over 300 metro stations, over 700 hospitals, more than
+              200 large shopping malls, and tens of thousands of bus stops). Suppose an image labeling task requires 20
+              minutes to complete on the proposed system and assuming that it could work up to 18 hours per day, tens of
+              millions of data-pieces could be process and labeled every single day. The scale of efficiency from this
+              system could be very considerable and has the ability to provide a substantial amount of labeled data.
 
-              Hints for the puzzle are included in each elf's character description, which is posted in the chamber of
-              secrets.
-
-              As long as the space of four elves have appeared, the door of the meeting room will open.
-              <!-- 场景设定在一个密室，小精灵们想要捉弄玩家，玩家需找到所有4只小精灵才能走出密室。
-            密室内布置着各种道具可出发机关，玩家需通过手机AR来帮助自己。解开谜题后，对应的小精灵便会出现。
-            谜题的提示都包含在每个小精灵的性格描述中，这些描述都张贴在密室里面。
-            只要空间中的4个小精灵都出现了，会议室的大门便会打开。-->
             </p>
           </div>
         </div>
@@ -123,12 +154,12 @@
       </div>
 
       <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>视频展示</h2>
-          </div>
-          <div class="col-md-12 text-center">
-              <h2>游戏下载链接</h2>
-            </div>
+        <div class="col-md-12 text-center">
+          <h2>视频展示</h2>
+        </div>
+        <div class="col-md-12 text-center">
+          <h2>游戏下载链接</h2>
+        </div>
       </div>
 
 
