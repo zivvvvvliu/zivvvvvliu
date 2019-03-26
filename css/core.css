@@ -16620,9 +16620,10 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: bold;
   line-height: 1.5;
   margin-top: 40px;
+
 }
 
 @media screen and (max-width: 768px) {
